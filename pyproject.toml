@@ -3,6 +3,7 @@ name = "stated"
 version = "0.1.1a1"
 description = "Distributed State in memory"
 authors = ["Abbas Jafari <abbas.jafari@powercoders.org>"]
+include = ["stated/**/*"]
 license = "MIT"
 readme = "README.md"
 
