@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "stated"
-version = "0.1.1a0"
-description = "TODO"
+version = "0.1.1a1"
+description = "Distributed State in memory"
 authors = ["Abbas Jafari <abbas.jafari@powercoders.org>"]
 license = "MIT"
 readme = "README.md"
