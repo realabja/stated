@@ -1,2 +1,7 @@
+site_name: Stated
+site_dir: docs-dist
+site_url: https://realabja.github.com/stated/
+repo_url: https://github.com/realabja/stated/
+repo_name: Stated
 theme:
   name: material
