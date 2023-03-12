@@ -1,5 +1,6 @@
+docs_dir: docs-source
 site_name: Stated
-site_dir: docs-dist
+site_dir: docs
 site_url: https://realabja.github.com/stated/
 repo_url: https://github.com/realabja/stated/
 repo_name: Stated
