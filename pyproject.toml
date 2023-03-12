@@ -9,7 +9,36 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+cryptography = "^39.0.1"
+aiohttp = "^3.8.4"
 
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.3.1"
+pre-commit = "^3.1.1"
+pytest = "^7.2.2"
+poethepoet = "^0.18.1"
+pytest-cov = "^4.0.0"
+pytest-asyncio = "^0.20.3"
+fastapi = "^0.93.0"
+elastic-apm = "^6.15.1"
+uvicorn = "^0.21.0"
+mkdocs-material = "^9.1.2"
+
+[tool.poetry.scripts]
+stated = { callable = "stated.terminal:entrypoint" }
+
+[tool.poe]
+poetry_command = ""
+
+[tool.poe.tasks]
+test   = "pytest tests  --log-cli-level=0 --cov=stated"
+
+[tool.isort]
+force_single_line = true
+
+[tool.black]
+line-length = 120
 
 [build-system]
 requires = ["poetry-core"]
