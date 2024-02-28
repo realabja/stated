@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "example-stated"
+version = "0.1.0"
+description = ""
+authors = ["Abbas Jafari <abbas.jafari@powercoders.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+uvicorn = {extras = ["all"], version = "^0.24.0.post1"}
+watchfiles = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
